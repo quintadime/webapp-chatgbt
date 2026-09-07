@@ -1,0 +1,28 @@
+BUDGET RESET — EMAIL NURTURE 7 GIORNI
+
+EMAIL 0 — IMMEDIATA
+Oggetto: Il tuo Budget Reset è pronto
+Ciao {{nome}},
+il tuo Budget Reset è qui.
+Prima di cercare di risparmiare di più, scopri quanto puoi davvero spendere.
+CTA: APRI IL BUDGET RESET
+
+EMAIL 1 — GIORNO 1
+Oggetto: Il tuo stipendio non è il tuo budget
+100 € sul conto non significano 100 € disponibili. Il saldo dice quanto hai. Il budget dice quanto puoi spendere.
+CTA: VEDI IL TUO NUMERO
+
+EMAIL 2 — GIORNO 3
+Oggetto: Le spese che non senti
+5 € qui, 8 € là, un rinnovo automatico. Il problema è non sapere quanto spazio occupano nel mese.
+CTA: FAI IL CHECK
+
+EMAIL 3 — GIORNO 5
+Oggetto: Una domanda prima di comprare
+Non chiederti solo “me lo posso permettere?”. Chiediti: “Questa spesa entra davvero nel mio budget?”
+CTA: CONTROLLA IL BUDGET
+
+EMAIL 4 — GIORNO 7
+Oggetto: Il primo Reset è fatto. E adesso?
+Il prossimo passo non è un budget perfetto: è una routine semplice, con controllo settimanale e un obiettivo concreto.
+CTA: SCOPRI BUDGET RESET SOLO PRO
