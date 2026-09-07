@@ -2,27 +2,92 @@
 <html lang="it">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Budget Reset — Sistema di budgeting semplice</title>
-<meta name="description" content="Budget Reset: un sistema semplice per capire dove finiscono i tuoi soldi e costruire un margine ogni mese.">
+<title>Budget Reset — Gratis</title>
+<meta name="description" content="Budget Reset: il sistema semplice per capire dove finiscono i tuoi soldi e iniziare a costruire un margine ogni mese.">
 <style>
 :root{--bg:#1A1A1A;--text:#fff;--accent:#C8F135;--muted:#888;--card:#242424;--line:#343434}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.55}
-.wrap{width:min(1080px,92%);margin:auto}.nav{display:flex;justify-content:space-between;align-items:center;padding:22px 0}.logo{font-size:22px;font-weight:900}.logo span{color:var(--accent)}
-.btn{display:inline-block;padding:14px 18px;border-radius:10px;background:var(--accent);color:#111;font-weight:900;text-decoration:none}.ghost{background:transparent;color:#fff;border:1px solid var(--line)}
-.hero{padding:80px 0 90px}.kicker{color:var(--accent);font-weight:900;letter-spacing:.12em;font-size:.8rem}h1{font-size:clamp(2.8rem,7vw,5.4rem);line-height:.95;letter-spacing:-.05em;max-width:900px;margin:18px 0}.lead{font-size:1.18rem;color:#ddd;max-width:720px}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:28px}
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;padding-bottom:90px}.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:24px}.card strong{display:block;margin-bottom:8px;font-size:1.08rem}.muted{color:var(--muted)}
-.footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-size:.9rem}@media(max-width:760px){.grid{grid-template-columns:1fr}.nav .btn{padding:11px 13px}}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.55}
+.wrap{width:min(1080px,92%);margin:auto}.nav{display:flex;justify-content:space-between;align-items:center;padding:22px 0}.logo{font-size:22px;font-weight:900;letter-spacing:.03em}.logo span{color:var(--accent)}
+.btn{display:inline-block;padding:14px 18px;border-radius:10px;background:var(--accent);color:#111;font-weight:900;text-decoration:none;border:0;cursor:pointer}.ghost{background:transparent;color:#fff;border:1px solid var(--line)}
+.hero{padding:72px 0 70px}.kicker{color:var(--accent);font-weight:900;letter-spacing:.12em;font-size:.8rem}h1{font-size:clamp(2.8rem,7vw,5.4rem);line-height:.95;letter-spacing:-.05em;max-width:900px;margin:18px 0}.lead{font-size:1.18rem;color:#ddd;max-width:760px}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:28px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;padding-bottom:76px}.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:24px}.card strong{display:block;margin-bottom:8px;font-size:1.08rem}.muted{color:var(--muted)}
+.capture{padding:34px;border-radius:18px;border:1px solid var(--line);background:#202020;display:grid;grid-template-columns:1.1fr .9fr;gap:28px;align-items:center;margin-bottom:76px}.capture h2{margin:5px 0 10px;font-size:clamp(1.8rem,3vw,2.6rem);line-height:1.05}.form{display:grid;gap:10px}.form input{width:100%;padding:14px;border-radius:10px;border:1px solid #444;background:#111;color:#fff;font-size:1rem;outline:none}.form input:focus{border-color:var(--accent)}.consent{font-size:.82rem;color:#999;line-height:1.35}.status{min-height:20px;font-size:.9rem;color:var(--muted)}
+.footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-size:.9rem}@media(max-width:760px){.grid,.capture{grid-template-columns:1fr}.nav .btn{padding:11px 13px}.hero{padding-top:42px}}
 </style>
 </head>
 <body>
 <div class="wrap">
-<nav class="nav"><div class="logo">BUDGET <span>RESET</span></div><a class="btn" href="app/">APRI L'APP →</a></nav>
-<header class="hero"><div class="kicker">BUDGET RESET SOLO</div><h1>Dove finiscono davvero i tuoi soldi?</h1><p class="lead">Un sistema semplice per capire il tuo mese, registrare le spese, impostare obiettivi e sapere quanto puoi davvero spendere.</p><div class="actions"><a class="btn" href="app/">INIZIA GRATIS →</a><a class="btn ghost" href="content/reel-content.csv">SCARICA I CONTENUTI REEL</a></div></header>
+<nav class="nav"><div class="logo">BUDGET <span>RESET</span></div><a class="btn" href="#lead-magnet">RICEVI GRATIS →</a></nav>
+
+<header class="hero">
+<div class="kicker">BUDGET RESET SOLO</div>
+<h1>Dove finiscono davvero i tuoi soldi?</h1>
+<p class="lead">Un sistema semplice per capire il tuo mese, registrare le spese, impostare obiettivi e sapere quanto puoi davvero spendere.</p>
+<div class="actions"><a class="btn" href="#lead-magnet">RICEVI IL BUDGET RESET GRATIS →</a></div>
+</header>
+
 <section class="grid">
 <div class="card"><strong>01 — Capisci</strong><span class="muted">Inserisci entrate e spese e guarda il tuo budget disponibile.</span></div>
 <div class="card"><strong>02 — Decidi</strong><span class="muted">Crea un obiettivo giornaliero, settimanale o mensile.</span></div>
 <div class="card"><strong>03 — Controlla</strong><span class="muted">Fai una review di cinque minuti e correggi una cosa alla volta.</span></div>
 </section>
+
+<section id="lead-magnet" class="capture">
+<div>
+<div class="kicker">BUDGET RESET — GRATIS</div>
+<h2>Ricevi il tuo Budget Reset gratuito.</h2>
+<p class="muted">Inserisci la tua email e ti prepariamo l'accesso al lead magnet. Nessun Excel, nessun abbonamento.</p>
 </div>
-<footer class="footer"><div class="wrap">BUDGET RESET • Sistema gratuito • I dati dell'app vengono salvati nel browser dell'utente.</div></footer>
+<form class="form" id="leadForm">
+<input type="email" id="email" name="email" placeholder="La tua email" autocomplete="email" required>
+<label class="consent"><input type="checkbox" id="consent" required> Accetto di ricevere il Budget Reset e le comunicazioni collegate al percorso. Potrai cancellarti in qualsiasi momento.</label>
+<button class="btn" type="submit">MANDAMI IL BUDGET RESET →</button>
+<div class="status" id="status"></div>
+</form>
+</section>
+</div>
+<footer class="footer"><div class="wrap">BUDGET RESET • Sistema gratuito • I dati della web app vengono salvati nel browser dell'utente.</div></footer>
+
+<script>
+// Questo form è già predisposto per il collegamento a Resend tramite un endpoint/serverless.
+// Non inserire mai la API key Resend nel codice client o in GitHub.
+const LEAD_ENDPOINT = '';
+
+const form=document.getElementById('leadForm');
+const statusEl=document.getElementById('status');
+form.addEventListener('submit',async function(e){
+  e.preventDefault();
+  const email=document.getElementById('email').value.trim();
+  const consent=document.getElementById('consent').checked;
+  if(!email || !consent) return;
+
+  if(!LEAD_ENDPOINT){
+    statusEl.textContent='Modulo pronto. Il collegamento a Resend verrà attivato quando configureremo l’endpoint di invio.';
+    return;
+  }
+
+  const params=new URLSearchParams(location.search);
+  const payload={
+    email,
+    consent:true,
+    utm_source:params.get('utm_source')||'',
+    utm_medium:params.get('utm_medium')||'',
+    utm_campaign:params.get('utm_campaign')||'',
+    utm_content:params.get('utm_content')||'',
+    utm_term:params.get('utm_term')||''
+  };
+
+  const button=form.querySelector('button');
+  button.disabled=true; button.textContent='INVIO...';
+  try{
+    const r=await fetch(LEAD_ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)});
+    if(!r.ok) throw new Error('Request failed');
+    window.location.href='thank-you.html';
+  }catch(err){
+    statusEl.textContent='Non siamo riusciti a completare l’invio. Riprova tra poco.';
+    button.disabled=false; button.textContent='MANDAMI IL BUDGET RESET →';
+  }
+});
+</script>
 </body></html>
